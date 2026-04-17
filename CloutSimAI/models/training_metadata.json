@@ -1,0 +1,161 @@
+{
+  "total_rows": 22500703,
+  "vocab_size": 137976,
+  "chunk_size": 200000,
+  "classes": {
+    "career": [
+      "lawyer",
+      "pilot",
+      "architect",
+      "musician",
+      "doctor",
+      "actor",
+      "cricketer",
+      "artist",
+      "teacher",
+      "scientist",
+      "data_scientist",
+      "engineer",
+      "psychologist",
+      "entrepreneur",
+      "politician",
+      "game_developer",
+      "journalist",
+      "footballer",
+      "designer",
+      "boxer"
+    ],
+    "popularity": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "motivation": [
+      "power",
+      "precision",
+      "design",
+      "creative",
+      "service",
+      "fame",
+      "curiosity",
+      "logic",
+      "empathy",
+      "leadership",
+      "truth",
+      "strength"
+    ],
+    "risk": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "age": [
+      "very_young",
+      "young",
+      "teen",
+      "preteen"
+    ],
+    "intensity": [
+      "very_strong",
+      "mild",
+      "strong",
+      "moderate"
+    ],
+    "personality": [
+      "competitive",
+      "adventurous",
+      "creative",
+      "extroverted",
+      "analytical",
+      "introverted"
+    ]
+  },
+  "career_distribution": {
+    "engineer": 2105740,
+    "actor": 2104899,
+    "lawyer": 1530290,
+    "cricketer": 1529918,
+    "journalist": 1529364,
+    "doctor": 1528457,
+    "artist": 1528290,
+    "entrepreneur": 1527375,
+    "designer": 953249,
+    "teacher": 952426,
+    "psychologist": 952361,
+    "footballer": 952353,
+    "scientist": 951533,
+    "architect": 951503,
+    "musician": 951151,
+    "data_scientist": 950385,
+    "boxer": 375645,
+    "game_developer": 375520,
+    "pilot": 375405,
+    "politician": 374839
+  },
+  "popularity_distribution": {
+    "2": 7153296,
+    "4": 3682918,
+    "1": 3245292,
+    "5": 3305932,
+    "3": 5113265
+  },
+  "validation_history": [
+    {
+      "rows": 2000000,
+      "career_accuracy": 0.7161,
+      "popularity_accuracy": 0.4565
+    },
+    {
+      "rows": 4000000,
+      "career_accuracy": 0.7134,
+      "popularity_accuracy": 0.4517
+    },
+    {
+      "rows": 6000000,
+      "career_accuracy": 0.716,
+      "popularity_accuracy": 0.4524
+    },
+    {
+      "rows": 8000000,
+      "career_accuracy": 0.7133,
+      "popularity_accuracy": 0.452
+    },
+    {
+      "rows": 10000000,
+      "career_accuracy": 0.7139,
+      "popularity_accuracy": 0.4511
+    },
+    {
+      "rows": 12000000,
+      "career_accuracy": 0.7124,
+      "popularity_accuracy": 0.4505
+    },
+    {
+      "rows": 14000000,
+      "career_accuracy": 0.7144,
+      "popularity_accuracy": 0.4504
+    },
+    {
+      "rows": 16000000,
+      "career_accuracy": 0.7136,
+      "popularity_accuracy": 0.4493
+    },
+    {
+      "rows": 18000000,
+      "career_accuracy": 0.7136,
+      "popularity_accuracy": 0.4496
+    },
+    {
+      "rows": 20000000,
+      "career_accuracy": 0.7122,
+      "popularity_accuracy": 0.4515
+    },
+    {
+      "rows": 22000000,
+      "career_accuracy": 0.713,
+      "popularity_accuracy": 0.4482
+    }
+  ]
+}
