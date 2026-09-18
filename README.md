@@ -876,21 +876,3 @@ If you use this system in research:
 ## 📄 License
 
 MIT License - feel free to use and modify.
-
-## 🤝 Contributing
-
-Contributions welcome! Areas for improvement:
-- Additional career categories
-- Better semantic prototypes
-- Improved explainability
-- Performance optimization
-
-## 📞 Support
-
-For issues or questions:
-- Open a GitHub issue
-- Email: your.email@example.com
-
----
-
-**Built with ❤️ using scikit-learn, sentence-transformers, and 50M dreams**
